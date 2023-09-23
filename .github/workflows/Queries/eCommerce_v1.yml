@@ -1,0 +1,9 @@
+name: eCommerce_v1
+run-name: Setting up the eCommerce database
+on : [push]
+jobs:
+  test-output:
+  runs-on: ubuntu-latest
+  steps:
+  - name: Test Output
+    run: echo "Here is a test"
